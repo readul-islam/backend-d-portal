@@ -11,7 +11,7 @@ require("dotenv").config();
 app.use(cors());
 app.use(express.json());
 app.use(appRouter);
-
+// hhhhhhhhhhh
 app.use("/PrescriptionImages", express.static("./PrescriptionImages"));
 app.use("/Images", express.static("./Images"));
 app.use('/uploadedFile', express.static('./uploadedFile'))
